@@ -380,3 +380,9 @@ body .is-layout-grid>* {
   .active  {
     color: red;
 }
+.zsiq_flt_rel{
+    display: none !important;
+}
+.grecaptcha-badge{
+    display: none;
+}
