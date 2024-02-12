@@ -363,7 +363,7 @@ body .is-layout-grid>* {
     line-height: 1.6;
 }
 
-.menu-list{
+/* .menu-list{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -379,10 +379,34 @@ body .is-layout-grid>* {
 
   .active  {
     color: red;
-}
+} */
 .zsiq_flt_rel{
     display: none !important;
 }
 .grecaptcha-badge{
     display: none;
+}
+.menu-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    list-style: none;
+}
+
+.menu-list.active {
+    max-height: 200px; /* Adjust this value based on your content height */
+}
+
+.menu-list li a {
+    transition: .3s;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu-list li a:hover {
+    color: red;
+}
+
+.menu-list.active li.active a {
+    color: red;
 }

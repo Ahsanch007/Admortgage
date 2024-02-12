@@ -377,26 +377,59 @@
                     </ul>
 
                 </div> -->
-                <ul class="menu-list" ata-tabs-filter="">
-                    <li class="active">
-                        <a href="index.html">Non-QM</a>
-                    </li>
-                    <li>
-                        <a href="jumbo.html">Jumbo</a>
-                    </li>
-                    <li>
-                        <a href="government.html">Government</a>
-                    </li>
-                    <li>
-                        <a href="SecondLine.html">Second Lien</a>
-                    </li>
-                    <li>
-                        <a href="conventional.html">Conventional</a>
-                    </li>
-                    <li>
-                        <a href="other-financing-solutions.html">Other Financing Solutions</a>
-                    </li>
-                </ul>
+                <!-- <div class="title">
+                    <h1>
+                        Loan progam
+                    </h1>
+                    <ul class="menu-list" ata-tabs-filter="">
+                        <li class="active">
+                            <a href="index.html">Non-QM</a>
+                        </li>
+                        <li>
+                            <a href="jumbo.html">Jumbo</a>
+                        </li>
+                        <li>
+                            <a href="government.html">Government</a>
+                        </li>
+                        <li>
+                            <a href="SecondLine.html">Second Lien</a>
+                        </li>
+                        <li>
+                            <a href="conventional.html">Conventional</a>
+                        </li>
+                        <li>
+                            <a href="other-financing-solutions.html">Other Financing Solutions</a>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <div class="title" id="dropdown-title">
+                    <h1 style="cursor: pointer; margin-bottom: 20px;">
+                        Loan program
+                    </h1>
+                    <!-- <ul class="menu-list" id="dropdown-list">
+                        <li class="active">
+                            <a href="index.html">Non-QM</a>
+                        </li>
+                        <li>
+                            <a href="jumbo.html">Jumbo</a>
+                        </li>
+                        <li>
+                            <a href="government.html">Government</a>
+                        </li>
+                        <li>
+                            <a href="SecondLine.html">Second Lien</a>
+                        </li>
+                        <li>
+                            <a href="conventional.html">Conventional</a>
+                        </li>
+                        <li>
+                            <a href="other-financing-solutions.html">Other Financing Solutions</a>
+                        </li>
+                    </ul> -->
+                </div>
+
+
 
                 <div data-wrapper="" class="programs-blocks-wrapper programs-blocks-wrapper__one-third"
                     id="programs-blocks-wrapper">
@@ -773,7 +806,7 @@
 
 
 
-                    <a href="https://admortgage.com/programs/foreign-nationals/"
+                    <a href="https://www.goormancapital.com/foreign-national"
                         class="program-block program-block-shown-1 program-block-shown-2 program-block__one-third                                                                                             investors                                                                                                                                                                                                                        foreign-income                                                                                    "
                         data-id-program="604" data-material-type="foreign-national,non-qm">
                         <div
@@ -1433,7 +1466,13 @@
 
     <script type="text/javascript" src="js/widget-init.js"></script>
 
+    <script>
+        document.getElementById('dropdown-title').addEventListener('click', function () {
+            var menuList = document.getElementById('dropdown-list');
+            menuList.classList.toggle('active');
+        });
 
+    </script>
 
 
 </body>
