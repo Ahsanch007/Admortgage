@@ -1112,7 +1112,7 @@ a.Private {
 
 .title-main {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 100%;
     margin: 8px 0 24px 0;
 }
@@ -7197,9 +7197,7 @@ a.form__item-programs-link {
 }
 
 @media (max-width: 1024px) {
-    .title-main {
-        font-size: 54px;
-    }
+  
 
     .title-main_bp {
         font-size: 42px;
@@ -8129,9 +8127,7 @@ a.form__item-programs-link {
 
 @media (max-width: 360px) {
 
-    .title-main {
-        font-size: 48px;
-    }
+    
 
     .title-main_bp {
         font-size: 32px;
